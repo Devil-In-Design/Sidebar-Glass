@@ -166,17 +166,9 @@ body {
     transform: rotateY(180deg);
 }
 
-.name {
-	color: #01cdfe !important;
-}
-
-html, body {
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
-}
-
-.modal {
-  width: 50vw;
-  height: 50vh;
-  height: calc(var(--vh, 1vh) * 50);
+.container-fluid{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 2cm;
 }
